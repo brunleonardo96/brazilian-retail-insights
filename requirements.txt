@@ -1,0 +1,5 @@
+pandas>=2.0.0
+seaborn>=0.13.0
+matplotlib>=3.8.0
+google-cloud-bigquery>=3.0.0
+db-dtypes>=1.1.0
