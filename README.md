@@ -35,7 +35,7 @@ In this section, I explored the geographic distribution of revenue (GMV) across 
 * **Revenue Map:** An interactive visualization showing revenue density by state.
 * **Top States Chart:** A ranking of the top 10 states by total gross revenue.
 
-![Revenue Map](brazil_revenue_map.png)
+![Revenue Map](brazil_revenue_map.PNG)
 ![Top States Chart](geo_spending_chart.png)
 
 ---
