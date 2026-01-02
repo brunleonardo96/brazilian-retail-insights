@@ -52,6 +52,21 @@ I analyzed how different payment methods influence the Average Order Value (AOV)
 
 ---
 
+## 🤖 Analysis 4: NLP Sentiment Analysis & Validation
+I performed a Natural Language Processing (NLP) analysis on a randomized sample of 5,000 customer reviews to quantify the emotional tone of feedback and validate it against the star ratings.
+
+### Key Insights:
+* **Validation Success:** The boxplot confirms a positive correlation between the `TextBlob` polarity score and the `review_score`. Higher star ratings (4-5) show a broader range of positive polarity compared to lower ratings.
+* **The "Neutral" Challenge:** A significant cluster of reviews remains around the 0.0 polarity mark across all ratings. This is due to short, factual comments (e.g., "delivered", "ok") and the complexity of Portuguese nuances for standard NLP libraries.
+* **Outlier Analysis:** High-polarity negative reviews in the 1-star category clearly identify "critical detractors" where the text expresses extreme dissatisfaction.
+
+### Visual Validation:
+By plotting the NLP score against the actual star rating, I demonstrated the model's ability to distinguish between extreme sentiments, providing a more granular view than stars alone.
+
+![Sentiment Validation](sentiment_validation_plot.png)
+
+---
+
 ## 🛡️ Data Quality & Professional Approach
 Following professional data standards, this project includes:
 * **Logical Validations:** SQL checks for shipping vs. delivery date anomalies.
