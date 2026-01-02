@@ -40,6 +40,18 @@ In this section, I explored the geographic distribution of revenue (GMV) across 
 
 ---
 
+## 💳 Analysis 3: Payment Methods & Financial Impact
+I analyzed how different payment methods influence the Average Order Value (AOV).
+
+### Key Insights:
+* **Credit Card Supremacy:** Credit cards are the most used method and drive the highest AOV (R$ 163), likely due to the "installments" (rateizzazione) feature.
+* **Boleto usage:** A significant portion of transactions uses Boleto, which typically has a lower AOV (R$ 145).
+* **Installment Strategy:** On average, credit card purchases are split into 3-5 installments, which is a key driver for higher-priced items in the Brazilian market.
+
+![Payment Methods](payment_methods_chart.png)
+
+---
+
 ## 🛡️ Data Quality & Professional Approach
 Following professional data standards, this project includes:
 * **Logical Validations:** SQL checks for shipping vs. delivery date anomalies.
